@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import BaseModal from "./components/modal/BaseModal";
+import ProductTable from "./components/table/ProductTable";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -20,7 +21,10 @@ function App() {
       </section>
       <hr />
 
-      <div>
+      <ProductTable />
+      <hr />
+
+      <div className="text-center">
         <button onClick={() => setIsModalOpen(true)}>Open Modal</button>
 
         <BaseModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
