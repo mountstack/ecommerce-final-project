@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "product": "Laptop",
+    "description": "A high-performance laptop with 16GB RAM.",
+    "quantity": 3,
+    "images": "image1.jpg image2.jpg"
+  },
+  {
+    "id": 2,
+    "product": "Smartphone",
+    "description": "Latest model with a stunning display.",
+    "quantity": 5,
+    "images": "image3.jpg image4.jpg"
+  },
+  {
+    "id": 3,
+    "product": "Tablet",
+    "description": "Lightweight and portable with a 10-inch screen.",
+    "quantity": 2,
+    "images": "image5.jpg image6.jpg"
+  },
+  {
+    "id": 4,
+    "product": "Headphones",
+    "description": "Noise-cancelling over-ear headphones.",
+    "quantity": 7,
+    "images": "image7.jpg image8.jpg"
+  },
+  {
+    "id": 5,
+    "product": "Smartwatch",
+    "description": "Feature-rich smartwatch with health tracking.",
+    "quantity": 10,
+    "images": "image9.jpg image10.jpg"
+  },
+  {
+    "id": 6,
+    "product": "Camera",
+    "description": "DSLR camera with 24MP sensor.",
+    "quantity": 1,
+    "images": "image11.jpg image12.jpg"
+  },
+  {
+    "id": 7,
+    "product": "Printer",
+    "description": "All-in-one printer with wireless connectivity.",
+    "quantity": 4,
+    "images": "image13.jpg image14.jpg"
+  },
+  {
+    "id": 8,
+    "product": "Monitor",
+    "description": "4K UHD monitor with HDR support.",
+    "quantity": 6,
+    "images": "image15.jpg image16.jpg"
+  },
+  {
+    "id": 9,
+    "product": "Keyboard",
+    "description": "Mechanical keyboard with RGB lighting.",
+    "quantity": 8,
+    "images": "image17.jpg image18.jpg"
+  },
+  {
+    "id": 10,
+    "product": "Mouse",
+    "description": "Wireless mouse with ergonomic design.",
+    "quantity": 9,
+    "images": "image19.jpg image20.jpg"
+  },
+  {
+    "id": 11,
+    "product": "Router",
+    "description": "High-speed Wi-Fi router with dual-band support.",
+    "quantity": 3,
+    "images": "image21.jpg image22.jpg"
+  },
+  {
+    "id": 12,
+    "product": "External Hard Drive",
+    "description": "1TB external hard drive with USB 3.0.",
+    "quantity": 12,
+    "images": "image23.jpg image24.jpg"
+  },
+  {
+    "id": 13,
+    "product": "Speakers",
+    "description": "Bluetooth speakers with powerful bass.",
+    "quantity": 2,
+    "images": "image25.jpg image26.jpg"
+  },
+  {
+    "id": 14,
+    "product": "Webcam",
+    "description": "HD webcam with built-in microphone.",
+    "quantity": 7,
+    "images": "image27.jpg image28.jpg"
+  },
+  {
+    "id": 15,
+    "product": "Flash Drive",
+    "description": "64GB USB flash drive with fast transfer speeds.",
+    "quantity": 15,
+    "images": "image29.jpg image30.jpg"
+  },
+  {
+    "id": 16,
+    "product": "Charger",
+    "description": "Fast-charging USB-C charger.",
+    "quantity": 10,
+    "images": "image31.jpg image32.jpg"
+  },
+  {
+    "id": 17,
+    "product": "Power Bank",
+    "description": "Portable power bank with 20000mAh capacity.",
+    "quantity": 8,
+    "images": "image33.jpg image34.jpg"
+  },
+  {
+    "id": 18,
+    "product": "Memory Card",
+    "description": "128GB microSD memory card.",
+    "quantity": 20,
+    "images": "image35.jpg image36.jpg"
+  },
+  {
+    "id": 19,
+    "product": "Smart Speaker",
+    "description": "Voice-controlled smart speaker.",
+    "quantity": 5,
+    "images": "image37.jpg image38.jpg"
+  },
+  {
+    "id": 20,
+    "product": "Fitness Tracker",
+    "description": "Wearable fitness tracker with heart rate monitor.",
+    "quantity": 7,
+    "images": "image39.jpg image40.jpg"
+  },
+  {
+    "id": 21,
+    "product": "VR Headset",
+    "description": "Immersive virtual reality headset.",
+    "quantity": 3,
+    "images": "image41.jpg image42.jpg"
+  },
+  {
+    "id": 22,
+    "product": "Game Console",
+    "description": "Next-gen game console with 4K support.",
+    "quantity": 2,
+    "images": "image43.jpg image44.jpg"
+  },
+  {
+    "id": 23,
+    "product": "Smart Light",
+    "description": "Smart LED light with voice control.",
+    "quantity": 10,
+    "images": "image45.jpg image46.jpg"
+  },
+  {
+    "id": 24,
+    "product": "Drone",
+    "description": "High-definition camera drone.",
+    "quantity": 4,
+    "images": "image47.jpg image48.jpg"
+  },
+  {
+    "id": 25,
+    "product": "Electric Scooter",
+    "description": "Foldable electric scooter with long battery life.",
+    "quantity": 5,
+    "images": "image49.jpg image50.jpg"
+  },
+  {
+    "id": 26,
+    "product": "Projector",
+    "description": "Portable projector with 1080p resolution.",
+    "quantity": 6,
+    "images": "image51.jpg image52.jpg"
+  },
+  {
+    "id": 27,
+    "product": "Bluetooth Headset",
+    "description": "Wireless Bluetooth headset with noise cancellation.",
+    "quantity": 8,
+    "images": "image53.jpg image54.jpg"
+  },
+  {
+    "id": 28,
+    "product": "Smart Plug",
+    "description": "Smart plug with Wi-Fi control.",
+    "quantity": 12,
+    "images": "image55.jpg image56.jpg"
+  },
+  {
+    "id": 29,
+    "product": "Security Camera",
+    "description": "1080p HD security camera with night vision.",
+    "quantity": 7,
+    "images": "image57.jpg image58.jpg"
+  },
+  {
+    "id": 30,
+    "product": "Wireless Charger",
+    "description": "Fast wireless charger with Qi compatibility.",
+    "quantity": 11,
+    "images": "image59.jpg image60.jpg"
+  },
+  {
+    "id": 31,
+    "product": "Smart Thermostat",
+    "description": "Programmable smart thermostat.",
+    "quantity": 4,
+    "images": "image61.jpg image62.jpg"
+  },
+  {
+    "id": 32,
+    "product": "Robot Vacuum",
+    "description": "Robotic vacuum cleaner with smart navigation.",
+    "quantity": 3,
+    "images": "image63.jpg image64.jpg"
+  },
+  {
+    "id": 33,
+    "product": "Electric Kettle",
+    "description": "Electric kettle with temperature control.",
+    "quantity": 9,
+    "images": "image65.jpg image66.jpg"
+  },
+  {
+    "id": 34,
+    "product": "Air Purifier",
+    "description": "HEPA air purifier with smart features.",
+    "quantity": 5,
+    "images": "image67.jpg image68.jpg"
+  },
+  {
+    "id": 35,
+    "product": "Smart Lock",
+    "description": "Smart lock with keyless entry.",
+    "quantity": 6,
+    "images": "image69.jpg image70.jpg"
+  },
+  {
+    "id": 36,
+    "product": "Coffee Maker",
+    "description": "Automatic coffee maker with programmable settings.",
+    "quantity": 4,
+    "images": "image71.jpg image72.jpg"
+  },
+  {
+    "id": 37,
+    "product": "Smart Doorbell",
+    "description": "Video doorbell with motion detection.",
+    "quantity": 8,
+    "images": "image73.jpg image74.jpg"
+  },
+  {
+    "id": 38,
+    "product": "Digital Frame",
+    "description": "Digital photo frame with Wi-Fi.",
+    "quantity": 5,
+    "images": "image75.jpg image76.jpg"
+  },
+  {
+    "id": 39,
+    "product": "Electric Toothbrush",
+    "description": "Smart electric toothbrush with Bluetooth.",
+    "quantity": 7,
+    "images": "image77.jpg image78.jpg"
+  },
+  {
+    "id": 40,
+    "product": "Streaming Device",
+    "description": "4K streaming device with voice control.",
+    "quantity": 9,
+    "images": "image69.jpg image70.jpg"
+  }
+]
