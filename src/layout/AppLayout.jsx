@@ -1,8 +1,8 @@
 import { router } from "../routes/Routes";
 import { RouterProvider } from "react-router-dom";
 
-const Layout = () => {
+const AppLayout = () => {
   return <RouterProvider router={router} />;
 };
 
-export default Layout;
+export default AppLayout;

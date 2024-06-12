@@ -40,3 +40,7 @@
 .aside:hover::-webkit-scrollbar-thumb {
   background: #545e72;
 }
+
+.aside {
+  transition-property: width;
+}

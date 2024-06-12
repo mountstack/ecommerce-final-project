@@ -1,7 +1,7 @@
 const DashboardUsers = () => {
   return (
     <div>
-      <div className="bg-purple-400">Users</div>
+      <div className="w-full h-[700px] bg-purple-400 rounded"></div>
     </div>
   );
 };

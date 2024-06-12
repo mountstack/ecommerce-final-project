@@ -1,7 +1,7 @@
 const DashboardProducts = () => {
   return (
     <div>
-      <div className="bg-red-300">Products</div>
+      <div className="w-full h-[700px] bg-lime-600 rounded"></div>
     </div>
   );
 };

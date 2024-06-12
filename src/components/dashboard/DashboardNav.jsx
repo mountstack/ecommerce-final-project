@@ -4,9 +4,11 @@ import { GoSidebarExpand, GoSidebarCollapse } from "react-icons/go";
 
 const DashboardNav = ({ onToggle, isIcon }) => {
   return (
-    <nav className="py-3 px-[30px] flex justify-between items-center">
-      <div className="flex justify-center gap-4">
-        <span onClick={onToggle} className="text-2xl cursor-pointer">
+    <nav className="py-2 ps-[26px] pr-[30px] flex justify-between items-center">
+      <div className="flex items-center gap-4">
+        <span
+          onClick={onToggle}
+          className="text-xl cursor-pointer p-1 rounded hover:bg-bg-soft transition-all duration-100 ease-in-out">
           {isIcon ? <GoSidebarExpand /> : <GoSidebarCollapse />}
         </span>
 
@@ -14,7 +16,7 @@ const DashboardNav = ({ onToggle, isIcon }) => {
           E-Commerce
         </Link>
       </div>
-      <div className="flex gap-6 items-center">
+      <div className="flex gap-6 items-center py-1">
         <div className="relative cursor-pointer">
           <IoMdNotifications className="text-xl" />
           <span className="flex justify-center items-center rounded-full absolute -top-2 -right-2 w-[16px] h-[16px] bg-red-600 text-xs">

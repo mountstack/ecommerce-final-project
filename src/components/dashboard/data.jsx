@@ -20,8 +20,8 @@ export const menu = [
       {
         id: 2,
         title: "Profile",
-        url: "/dashboard",
-        icon: <ImProfile className="text-base" />,
+        url: "/dashboard/profile",
+        icon: <ImProfile />,
       },
     ],
   },
@@ -76,7 +76,7 @@ export const menu = [
   },
   {
     id: 4,
-    title: "Maintenance",
+    title: "settings",
     listItems: [
       {
         id: 1,
@@ -106,7 +106,7 @@ export const menu = [
   },
   {
     id: 6,
-    title: "experiments",
+    title: "checking",
     listItems: [
       {
         id: 1,
@@ -152,6 +152,30 @@ export const menu = [
       },
       {
         id: 40,
+        title: "Posts",
+        url: "/dashboard",
+        icon: <MdOutlinePostAdd />,
+      },
+      {
+        id: 140,
+        title: "Users",
+        url: "/dashboard",
+        icon: <FaUsers />,
+      },
+      {
+        id: 240,
+        title: "Products",
+        url: "/dashboard",
+        icon: <BsCart4 />,
+      },
+      {
+        id: 350,
+        title: "Orders",
+        url: "/dashboard",
+        icon: <MdOutlineEventNote />,
+      },
+      {
+        id: 450,
         title: "Posts",
         url: "/dashboard",
         icon: <MdOutlinePostAdd />,
