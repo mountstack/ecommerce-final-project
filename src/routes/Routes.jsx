@@ -8,6 +8,7 @@ import DashboardProducts from "../pages/dashboard/DashboardProducts";
 import DashBoardPage from "../pages/dashboard/DashboardPage";
 import DashboardLayout from "../layout/DashboardLayout";
 import DashboardProfile from "../pages/dashboard/DashboardProfile";
+import EmptyPage from "../pages/dashboard/EmptyPage";
 
 export const router = createBrowserRouter([
   {
@@ -42,6 +43,10 @@ export const router = createBrowserRouter([
       {
         path: "/dashboard/products",
         element: <DashboardProducts />,
+      },
+      {
+        path: "/dashboard/empty",
+        element: <EmptyPage />,
       },
     ],
   },

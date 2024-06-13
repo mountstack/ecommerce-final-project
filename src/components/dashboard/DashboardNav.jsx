@@ -1,19 +1,26 @@
 import { Link } from "react-router-dom";
 import { IoMdNotifications } from "react-icons/io";
+import { GiHamburgerMenu } from "react-icons/gi";
 import { GoSidebarExpand, GoSidebarCollapse } from "react-icons/go";
 
-const DashboardNav = ({ onToggle, isIcon }) => {
+const DashboardNav = ({ onToggle, isIcon, onOpen }) => {
   return (
     <nav className="py-2 ps-[26px] pr-[30px] flex justify-between items-center">
       <div className="flex items-center gap-4">
+        <button
+          onClick={onOpen}
+          className="block lg:hidden text-xl cursor-pointer p-1 rounded hover:bg-bg-soft transition-all duration-100 ease-in-out">
+          <GiHamburgerMenu />
+        </button>
         <span
           onClick={onToggle}
-          className="text-xl cursor-pointer p-1 rounded hover:bg-bg-soft transition-all duration-100 ease-in-out">
+          className="hidden lg:block text-xl cursor-pointer p-1 rounded hover:bg-bg-soft transition-all duration-100 ease-in-out">
           {isIcon ? <GoSidebarExpand /> : <GoSidebarCollapse />}
         </span>
 
         <Link className="font-bold text-xl" to="/dashboard">
-          E-Commerce
+          <span className="block sm:hidden">A-P</span>
+          <span className="hidden sm:block">Admin-Panel</span>
         </Link>
       </div>
       <div className="flex gap-6 items-center py-1">
@@ -31,7 +38,7 @@ const DashboardNav = ({ onToggle, isIcon }) => {
               alt="user"
             />
           </div>
-          <h6 className="text-sm font-semibold">Minhaj</h6>
+          <h6 className="text-sm font-semibold hidden sm:block">Minhaj</h6>
         </div>
       </div>
     </nav>

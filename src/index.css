@@ -16,7 +16,6 @@
 .aside::before {
   content: "";
   display: block;
-  height: 50px;
   position: absolute;
   top: 0;
   right: 0;

@@ -1,6 +1,6 @@
-import { useEffect } from "react";
 import { createPortal } from "react-dom";
 import { RxCrossCircled } from "react-icons/rx";
+import { useCloseEscKey } from "../../hooks/useCloseEscKey";
 
 /**
  * @param {Object} props
@@ -11,7 +11,6 @@ import { RxCrossCircled } from "react-icons/rx";
  * @param {React.ReactNode} props.children
  */
 
-// eslint-disable-next-line react/prop-types
 const BaseModal = ({ children, isOpen, onClose, closeBtn = true }) => {
   const modalRoot = document.getElementById("modal-root");
 
@@ -19,25 +18,7 @@ const BaseModal = ({ children, isOpen, onClose, closeBtn = true }) => {
     onClose((prevState) => ({ ...prevState }));
   };
 
-  const handleKeyPress = () => {
-    onClose();
-  };
-
-  const handleEscape = (event) => {
-    if (event.key === "Escape") {
-      onClose();
-    }
-  };
-
-  useEffect(() => {
-    document.addEventListener("keydown", handleKeyPress);
-    document.addEventListener("keydown", handleEscape);
-
-    return () => {
-      document.removeEventListener("keydown", handleKeyPress);
-      document.removeEventListener("keydown", handleEscape);
-    };
-  }, []);
+  useCloseEscKey(onClose);
 
   if (!isOpen) return null;
 
