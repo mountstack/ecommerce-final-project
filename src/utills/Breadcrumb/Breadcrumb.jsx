@@ -1,14 +1,16 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import { Home, ChevronsRight } from 'lucide-react'
 
 
+// eslint-disable-next-line react/prop-types
 const Breadcrumb = ({id, name, link, form = false}) => {
+    // console.log ({id, name, link, form})
   return (
-    <nav 
-        aria-label = 'Breadcrumb'
-        className = {`flex $ {form && 'mt-[5px]'}`}
-    >
+
+    <nav aria-label = 'Breadcrumb'>
+        
         <ul>
             <li>
                 <Home color="#bf6022" absoluteStrokeWidth />
@@ -19,20 +21,21 @@ const Breadcrumb = ({id, name, link, form = false}) => {
             </li>
 
             <li>
-                <Link
-                    to = {link}
-                    className='block hover:text-gray-700 text-md font-semibold transition-all duration-500 hover:underline underline-offset-4'
+                <NavLink to = {link} >
+                    
                     {name}
-                >
-                </Link>
+
+                </NavLink>
             </li>
 
-            { form && <ChevronsRight size = '20?' /> }
-            { form ? id? 'Update' : 'Create' : ''}
+            { form && <ChevronsRight size = '20' /> }
+            { form ? id ? 'Update' : 'Create' : ''}
 
         </ul>
 
     </nav>
+
+  
 
     
   )
